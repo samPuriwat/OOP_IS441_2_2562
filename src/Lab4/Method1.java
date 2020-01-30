@@ -10,7 +10,7 @@ public class Method1 {
         A();
         A();
         //calling B() method
-        B("SAM");
+        B("SAM");  //B("SAM");
 
         //calling C() method
         //1. ประกาศตัวแปรชนิดเดียวกันกับค่าที่ส่งมาจากเมธอดเพื่อเก็บค่าข้อมูลนั้นไว้

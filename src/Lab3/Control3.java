@@ -20,11 +20,11 @@ public class Control3 {
 //            คำสั่งที่ทำงานเมื่อทุกเงื่อนไขเป็นเท็จทั้งหมด;
 //        }
 
-        //How old are?  >50 == old, >20 == teenager, <20 == young
+        //How old are?  >50 == old, >20 == teenager, <=20 == young
 
         Scanner sc = new Scanner(System.in);
         System.out.print("How old are?: ");
-        int age = sc.nextInt();
+        int age = sc.nextInt();  //30
         //test condition
         if (age >50){
             System.out.println("You are old.");

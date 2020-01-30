@@ -16,6 +16,16 @@ public class Array2 {
         }
         //display data in array
         showDataArray(x);
+        findTotalAndAverage(x);
+    }
+
+    private static void findTotalAndAverage(int[] x) {
+        int total = 0;
+        for (int val:x) {
+            total += val;
+        }
+        System.out.println("The total value : "+total);
+        System.out.println("The average value : "+(total/x.length));
     }
 
     private static void showDataArray(int[] x) {
