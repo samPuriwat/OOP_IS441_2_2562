@@ -24,7 +24,7 @@ public class Dog {
     public void running(){
         System.out.println("Dog Running");
     }
-    // getter and setter methods,
+    // getter and setter methods, == Encapsulation
     // getter ใช้อ่านข้อมูลของ object ,
     // setter ใช้ปรับปรังข้อมูลของ object
     public String getName(){
