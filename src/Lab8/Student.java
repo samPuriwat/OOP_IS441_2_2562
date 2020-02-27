@@ -8,7 +8,7 @@ public class Student extends Person {
     public Student(String pid, String name,
                    String dateOfBirth, String sid,
                    String program) {
-        super(pid, name, dateOfBirth);
+        super(pid, name, dateOfBirth); // เรียกใช้ constructor ของ super-class
         this.sid = sid;
         this.program = program;
     }

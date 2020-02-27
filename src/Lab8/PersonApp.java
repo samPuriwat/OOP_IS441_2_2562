@@ -14,7 +14,7 @@ public class PersonApp {
                 "05/08/1983",
                 "STD001", "Information System");
 
-        S1.running();
+        S1.running();  //running() อยู่ใน Class Person
         S1.addSubject();
         //P1.addSubject();
         // object ของ super-class ไม่สามารถเรียกใช้ method ของ sub-class ได้
